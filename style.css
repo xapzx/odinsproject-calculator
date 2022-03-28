@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: #101820FF;
 }
 
 .main-container {
@@ -17,15 +18,16 @@ body {
     flex-direction: column;
     border: black 1px solid;
     border-radius: 8px;
-    background-color: grey;
+    background-color: #00539CFF;
     padding: 10px;
 }
 
 button {
     height: 50px;
     font-size: 20px;
-    background-color: white;
+    background-color: #EEA47FFF;
     border-radius: 8px;
+    color: #101820FF;
 }
 
 .number-button {
@@ -37,14 +39,14 @@ button {
 .number-button button {
     flex-grow: 1;
     flex:1 0 20%;
-    margin:5px;
+    margin:3px;
 }
 
 .screen {
     background-color: azure;
     text-align: right;
-    margin: 5px;
-    border: black 2px solid;
+    margin: 3px;
+    border: #8AAAE5 2px solid;
     padding: 5px;
     height: 40px;
     font-size: 30px;
@@ -56,11 +58,12 @@ button {
 
 .top-button button{
     flex-grow: 1;
-    margin: 5px;
+    margin: 3px;
 }
 
 .title {
     margin: 50px;
     font-weight: bold;
     font-size: 20px;
+    color: white;
 }
