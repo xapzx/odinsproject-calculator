@@ -1,3 +1,9 @@
+const numberButtons = document.querySelectorAll('[data-number]');
+
+numberButtons.forEach((button) =>
+    button.addEventListener('click', () => displayVal(button.textContent))
+)
+
 function add(num1, num2) {
     return num1 + num2;
 }
@@ -29,4 +35,10 @@ function operate(op, num1, num2) {
             return divide(num1, num2);
             break; 
     }
+}
+
+var number;
+function displayVal(num) {
+    var element = document.getElementsByClassName("screen");
+    element[0].textContent += num;
 }
