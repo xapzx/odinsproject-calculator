@@ -30,7 +30,7 @@ button {
 
 .number-button button {
     flex-grow: 1;
-    flex:1 0 30%;
+    flex:1 0 20%;
     margin:5px;
 }
 
