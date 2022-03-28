@@ -16,11 +16,16 @@ body {
     display:flex;
     flex-direction: column;
     border: black 1px solid;
+    border-radius: 8px;
     background-color: grey;
+    padding: 10px;
 }
 
 button {
     height: 50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 
 .number-button {
@@ -39,9 +44,10 @@ button {
     background-color: azure;
     text-align: right;
     margin: 5px;
-    border: black 1px solid;
+    border: black 2px solid;
     padding: 5px;
-    height: 35px;
+    height: 40px;
+    font-size: 30px;
 }
 
 .top-button {
